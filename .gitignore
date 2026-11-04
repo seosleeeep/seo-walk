@@ -69,3 +69,18 @@ tests/
 
 # Docker history
 .isaac-lab-docker-history
+
+# Personal experiment artifacts and local credentials
+*.pt
+*.pth
+*.onnx
+*.mp4
+*.npz
+*.zip
+core
+core.*
+.env
+.env.*
+!.env.example
+*.pem
+*.key
