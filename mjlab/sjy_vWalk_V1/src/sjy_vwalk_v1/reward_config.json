@@ -1,0 +1,504 @@
+{
+  "survival": {
+    "func": "survival",
+    "weight": 0.25
+  },
+  "tracking_lin_vel_x": {
+    "func": "track_lin_vel_x_exp",
+    "weight": 1.5,
+    "params": {
+      "command_name": "motion",
+      "tracking_sigma": 0.25,
+      "combined_tracking_sigma": 0.25
+    }
+  },
+  "tracking_lin_vel_y": {
+    "func": "track_lin_vel_y_exp",
+    "weight": 1.5,
+    "params": {
+      "command_name": "motion",
+      "tracking_sigma": 0.25,
+      "combined_tracking_sigma": 0.25
+    }
+  },
+  "tracking_ang_vel": {
+    "func": "track_ang_vel_theta_exp",
+    "weight": 1.5,
+    "params": {
+      "command_name": "motion",
+      "tracking_sigma": 0.25,
+      "combined_tracking_sigma": 0.25
+    }
+  },
+  "tracking_velocity_alignment": {
+    "func": "track_velocity_direction_alignment",
+    "weight": 0.5,
+    "params": {
+      "command_name": "motion",
+      "velocity_scales": [
+        3.0,
+        1.5,
+        1.5
+      ],
+      "command_deadband": 0.05
+    }
+  },
+  "base_height": {
+    "func": "fixed_base_height_l2",
+    "weight": -20.0,
+    "params": {
+      "target_height": 0.52
+    }
+  },
+  "orientation": {
+    "func": "projected_gravity_l2",
+    "weight": -5.0
+  },
+  "torques": {
+    "func": "joint_torques_l2",
+    "weight": -0.0002,
+    "params": {
+      "asset_cfg": {
+        "selection": "robot",
+        "joint_names": [
+          "Left_Hip_Pitch",
+          "Left_Hip_Roll",
+          "Left_Hip_Yaw",
+          "Left_Knee_Pitch",
+          "Left_Ankle_Pitch",
+          "Left_Ankle_Roll",
+          "Right_Hip_Pitch",
+          "Right_Hip_Roll",
+          "Right_Hip_Yaw",
+          "Right_Knee_Pitch",
+          "Right_Ankle_Pitch",
+          "Right_Ankle_Roll",
+          "ALeft_Shoulder_Pitch",
+          "Left_Shoulder_Roll",
+          "Left_Elbow_Pitch",
+          "Left_Elbow_Yaw",
+          "ARight_Shoulder_Pitch",
+          "Right_Shoulder_Roll",
+          "Right_Elbow_Pitch",
+          "Right_Elbow_Yaw"
+        ]
+      }
+    }
+  },
+  "torque_tiredness": {
+    "func": "torque_tiredness",
+    "weight": -0.01,
+    "params": {
+      "asset_cfg": {
+        "selection": "robot",
+        "joint_names": [
+          "Left_Hip_Pitch",
+          "Left_Hip_Roll",
+          "Left_Hip_Yaw",
+          "Left_Knee_Pitch",
+          "Left_Ankle_Pitch",
+          "Left_Ankle_Roll",
+          "Right_Hip_Pitch",
+          "Right_Hip_Roll",
+          "Right_Hip_Yaw",
+          "Right_Knee_Pitch",
+          "Right_Ankle_Pitch",
+          "Right_Ankle_Roll",
+          "ALeft_Shoulder_Pitch",
+          "Left_Shoulder_Roll",
+          "Left_Elbow_Pitch",
+          "Left_Elbow_Yaw",
+          "ARight_Shoulder_Pitch",
+          "Right_Shoulder_Roll",
+          "Right_Elbow_Pitch",
+          "Right_Elbow_Yaw"
+        ]
+      }
+    }
+  },
+  "power": {
+    "func": "power_positive",
+    "weight": -0.0002,
+    "params": {
+      "asset_cfg": {
+        "selection": "robot",
+        "joint_names": [
+          "Left_Hip_Pitch",
+          "Left_Hip_Roll",
+          "Left_Hip_Yaw",
+          "Left_Knee_Pitch",
+          "Left_Ankle_Pitch",
+          "Left_Ankle_Roll",
+          "Right_Hip_Pitch",
+          "Right_Hip_Roll",
+          "Right_Hip_Yaw",
+          "Right_Knee_Pitch",
+          "Right_Ankle_Pitch",
+          "Right_Ankle_Roll",
+          "ALeft_Shoulder_Pitch",
+          "Left_Shoulder_Roll",
+          "Left_Elbow_Pitch",
+          "Left_Elbow_Yaw",
+          "ARight_Shoulder_Pitch",
+          "Right_Shoulder_Roll",
+          "Right_Elbow_Pitch",
+          "Right_Elbow_Yaw"
+        ]
+      }
+    }
+  },
+  "lin_vel_z": {
+    "func": "lin_vel_z_l2",
+    "weight": -2.0
+  },
+  "ang_vel_xy": {
+    "func": "ang_vel_xy_l2",
+    "weight": -0.2
+  },
+  "dof_vel": {
+    "func": "joint_vel_l2",
+    "weight": -0.0001,
+    "params": {
+      "asset_cfg": {
+        "selection": "robot",
+        "joint_names": [
+          "Left_Hip_Pitch",
+          "Left_Hip_Roll",
+          "Left_Hip_Yaw",
+          "Left_Knee_Pitch",
+          "Left_Ankle_Pitch",
+          "Left_Ankle_Roll",
+          "Right_Hip_Pitch",
+          "Right_Hip_Roll",
+          "Right_Hip_Yaw",
+          "Right_Knee_Pitch",
+          "Right_Ankle_Pitch",
+          "Right_Ankle_Roll",
+          "ALeft_Shoulder_Pitch",
+          "Left_Shoulder_Roll",
+          "Left_Elbow_Pitch",
+          "Left_Elbow_Yaw",
+          "ARight_Shoulder_Pitch",
+          "Right_Shoulder_Roll",
+          "Right_Elbow_Pitch",
+          "Right_Elbow_Yaw"
+        ]
+      }
+    }
+  },
+  "dof_acc": {
+    "func": "joint_acc_l2",
+    "weight": -1e-07,
+    "params": {
+      "asset_cfg": {
+        "selection": "robot",
+        "joint_names": [
+          "Left_Hip_Pitch",
+          "Left_Hip_Roll",
+          "Left_Hip_Yaw",
+          "Left_Knee_Pitch",
+          "Left_Ankle_Pitch",
+          "Left_Ankle_Roll",
+          "Right_Hip_Pitch",
+          "Right_Hip_Roll",
+          "Right_Hip_Yaw",
+          "Right_Knee_Pitch",
+          "Right_Ankle_Pitch",
+          "Right_Ankle_Roll",
+          "ALeft_Shoulder_Pitch",
+          "Left_Shoulder_Roll",
+          "Left_Elbow_Pitch",
+          "Left_Elbow_Yaw",
+          "ARight_Shoulder_Pitch",
+          "Right_Shoulder_Roll",
+          "Right_Elbow_Pitch",
+          "Right_Elbow_Yaw"
+        ]
+      }
+    }
+  },
+  "root_acc": {
+    "func": "root_acc_l2",
+    "weight": -0.0001,
+    "params": {
+      "asset_cfg": {
+        "selection": "robot",
+        "body_names": "Trunk"
+      }
+    }
+  },
+  "action_rate": {
+    "func": "action_rate_l2",
+    "weight": -1.5
+  },
+  "stand_action_rate": {
+    "func": "stand_action_rate_l2",
+    "weight": -1.0,
+    "params": {
+      "command_name": "motion",
+      "command_threshold": 0.05,
+      "lin_velocity_scale": 0.2,
+      "ang_velocity_scale": 0.5,
+      "tilt_scale": 0.2,
+      "asset_cfg": {
+        "selection": "robot",
+        "joint_names": [
+          "Left_Hip_Pitch",
+          "Left_Hip_Roll",
+          "Left_Hip_Yaw",
+          "Left_Knee_Pitch",
+          "Left_Ankle_Pitch",
+          "Left_Ankle_Roll",
+          "Right_Hip_Pitch",
+          "Right_Hip_Roll",
+          "Right_Hip_Yaw",
+          "Right_Knee_Pitch",
+          "Right_Ankle_Pitch",
+          "Right_Ankle_Roll",
+          "ALeft_Shoulder_Pitch",
+          "Left_Shoulder_Roll",
+          "Left_Elbow_Pitch",
+          "Left_Elbow_Yaw",
+          "ARight_Shoulder_Pitch",
+          "Right_Shoulder_Roll",
+          "Right_Elbow_Pitch",
+          "Right_Elbow_Yaw"
+        ]
+      }
+    }
+  },
+  "stand_joint_velocity": {
+    "func": "stand_joint_velocity_l2",
+    "weight": -0.0001,
+    "params": {
+      "command_name": "motion",
+      "command_threshold": 0.05,
+      "lin_velocity_scale": 0.2,
+      "ang_velocity_scale": 0.5,
+      "tilt_scale": 0.2,
+      "asset_cfg": {
+        "selection": "robot",
+        "joint_names": [
+          "Left_Hip_Pitch",
+          "Left_Hip_Roll",
+          "Left_Hip_Yaw",
+          "Left_Knee_Pitch",
+          "Left_Ankle_Pitch",
+          "Left_Ankle_Roll",
+          "Right_Hip_Pitch",
+          "Right_Hip_Roll",
+          "Right_Hip_Yaw",
+          "Right_Knee_Pitch",
+          "Right_Ankle_Pitch",
+          "Right_Ankle_Roll",
+          "ALeft_Shoulder_Pitch",
+          "Left_Shoulder_Roll",
+          "Left_Elbow_Pitch",
+          "Left_Elbow_Yaw",
+          "ARight_Shoulder_Pitch",
+          "Right_Shoulder_Roll",
+          "Right_Elbow_Pitch",
+          "Right_Elbow_Yaw"
+        ]
+      }
+    }
+  },
+  "dof_pos_limits": {
+    "func": "joint_pos_limits_count",
+    "weight": -1.0,
+    "params": {
+      "asset_cfg": {
+        "selection": "robot",
+        "joint_names": [
+          "Left_Hip_Pitch",
+          "Left_Hip_Roll",
+          "Left_Hip_Yaw",
+          "Left_Knee_Pitch",
+          "Left_Ankle_Pitch",
+          "Left_Ankle_Roll",
+          "Right_Hip_Pitch",
+          "Right_Hip_Roll",
+          "Right_Hip_Yaw",
+          "Right_Knee_Pitch",
+          "Right_Ankle_Pitch",
+          "Right_Ankle_Roll",
+          "ALeft_Shoulder_Pitch",
+          "Left_Shoulder_Roll",
+          "Left_Elbow_Pitch",
+          "Left_Elbow_Yaw",
+          "ARight_Shoulder_Pitch",
+          "Right_Shoulder_Roll",
+          "Right_Elbow_Pitch",
+          "Right_Elbow_Yaw"
+        ]
+      }
+    }
+  },
+  "collision": {
+    "func": "undesired_contacts",
+    "weight": -1.0,
+    "params": {
+      "sensor_cfg": {
+        "selection": "contact_forces",
+        "body_names": [
+          "^(?!left_foot_link$)(?!right_foot_link$).+$"
+        ]
+      },
+      "threshold": 1.0
+    }
+  },
+  "feet_swing": {
+    "func": "feet_swing",
+    "weight": 3.0,
+    "params": {
+      "command_name": "motion",
+      "sensor_cfg": {
+        "selection": "contact_forces",
+        "body_names": [
+          "left_foot_link",
+          "right_foot_link"
+        ]
+      },
+      "swing_period": 0.2,
+      "threshold": 1.0
+    }
+  },
+  "footswing_trajectory_tracking": {
+    "func": "footswing_trajectory_tracking_l2",
+    "weight": -1.0,
+    "params": {
+      "command_name": "motion",
+      "foot_cfg": {
+        "selection": "robot",
+        "body_names": [
+          "left_foot_link",
+          "right_foot_link"
+        ]
+      },
+      "maximum_height": 0.13,
+      "kappa": 1.0,
+      "height_error_scale": 5.0,
+      "command_threshold": 0.05
+    }
+  },
+  "feet_slip": {
+    "func": "feet_slip",
+    "weight": -0.2,
+    "params": {
+      "asset_cfg": {
+        "selection": "robot",
+        "body_names": [
+          "left_foot_link",
+          "right_foot_link"
+        ]
+      },
+      "sensor_cfg": {
+        "selection": "contact_forces",
+        "body_names": [
+          "left_foot_link",
+          "right_foot_link"
+        ]
+      },
+      "threshold": 1.0
+    }
+  },
+  "feet_yaw": {
+    "func": "feet_yaw_l2",
+    "weight": -2.0,
+    "params": {
+      "asset_cfg": {
+        "selection": "robot",
+        "body_names": [
+          "left_foot_link",
+          "right_foot_link"
+        ]
+      }
+    }
+  },
+  "feet_roll": {
+    "func": "feet_roll_l2",
+    "weight": -1.0,
+    "params": {
+      "asset_cfg": {
+        "selection": "robot",
+        "body_names": [
+          "left_foot_link",
+          "right_foot_link"
+        ]
+      }
+    }
+  },
+  "feet_offset_x": {
+    "func": "feet_offset_x_l1",
+    "weight": -5.0,
+    "params": {
+      "command_name": "motion",
+      "asset_cfg": {
+        "selection": "robot",
+        "body_names": [
+          "left_foot_link",
+          "right_foot_link"
+        ]
+      },
+      "max_forward_vel": 3.0
+    }
+  },
+  "feet_offset_y": {
+    "func": "feet_offset_y_l1",
+    "weight": -5.0,
+    "params": {
+      "command_name": "motion",
+      "asset_cfg": {
+        "selection": "robot",
+        "body_names": [
+          "left_foot_link",
+          "right_foot_link"
+        ]
+      },
+      "feet_distance_ref": 0.18,
+      "max_lateral_vel": 1.5
+    }
+  },
+  "heading_drift": {
+    "func": "heading_drift_l2",
+    "weight": -2.0,
+    "params": {
+      "command_name": "motion",
+      "deadband": 0.1
+    }
+  },
+  "feet_pitch": {
+    "func": "feet_pitch_l2",
+    "weight": -0.2,
+    "params": {
+      "asset_cfg": {
+        "selection": "robot",
+        "body_names": [
+          "left_foot_link",
+          "right_foot_link"
+        ]
+      }
+    }
+  },
+  "arm_posture": {
+    "func": "arm_posture_cost",
+    "weight": -0.1,
+    "params": {
+      "stand_threshold": 0.1,
+      "walk_knot": 1.0,
+      "run_knot": 2.0,
+      "stand_std": 0.05,
+      "walk_std": 0.15,
+      "run_std": [
+        0.5,
+        0.2,
+        0.35,
+        0.35,
+        0.5,
+        0.2,
+        0.35,
+        0.35
+      ]
+    }
+  }
+}

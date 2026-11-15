@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+logs/
+wandb/
+run_records/
+*.pt
+*.pth
+*.onnx
+*.mp4
+*.webm
+*.zip
+*.csv
+.venv/
+.env*
+*.egg-info/
