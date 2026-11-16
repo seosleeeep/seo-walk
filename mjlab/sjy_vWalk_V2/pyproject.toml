@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sjy-vwalk-v2"
+version = "0.1.0"
+description = "Independent port of Seo K1 vv3 to mjlab"
+requires-python = ">=3.10"
+dependencies = ["mjlab==1.6.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+sjy_vwalk_v2 = ["reward_config.json", "assets/*.xml"]
