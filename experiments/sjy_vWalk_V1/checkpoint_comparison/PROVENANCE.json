@@ -1,0 +1,8 @@
+{
+  "source_zip": "v1_checkpoint_comparison.zip",
+  "sha256": "8a8ecd26d126e451c420f6e5369e54abf0632e419989c05f18380015b89bb90b",
+  "analysis_date": "2026-11-17",
+  "evaluations": 12,
+  "samples": 6000,
+  "training_code_commit": null
+}

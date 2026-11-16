@@ -1,0 +1,21 @@
+{
+  "status": "duration_completed",
+  "checkpoint": "/home/user/sjy_vWalk_V1_upload_20261116_024158/sjy_vWalk_V1/logs/rsl_rl/sjy_vWalk_V1/2026-11-16_02-42-37_v1_velocity_straight/model_10000.pt",
+  "seed": 42,
+  "command_vx_mps": 2.0,
+  "requested_seconds": 10.0,
+  "samples": 500,
+  "last_valid_sample": {
+    "time_s": 10.0,
+    "command_vx_mps": 2.0,
+    "forward_m": 3.3841278553009033,
+    "lateral_m": -1.37355375289917,
+    "forward_speed_mps": 0.1518639326095581,
+    "lateral_speed_mps": -0.3302454650402069,
+    "heading_deg": -54.422147372807096
+  },
+  "max_abs_lateral_cm": 137.355375289917,
+  "max_abs_heading_deg": 54.827018281404996,
+  "mean_forward_speed_after_2s": 0.33982399005693686,
+  "vx_rmse_after_2s": 1.6621822732401517
+}
