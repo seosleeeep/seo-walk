@@ -1,0 +1,128 @@
+{
+  "zip_sha256": "ee66302360fe79e94594c03883ad98d613ac67093fbde3b3b1a7461228752272",
+  "files": [
+    {
+      "path": "diagnostics/model_20000_vx0_seed42_20261117_005653_368432/joints.csv",
+      "bytes": 1682685,
+      "sha256": "ae7a07e7c055aa676921e628b9930d2cf4501599abf0ba26f1070fae029e73c9"
+    },
+    {
+      "path": "diagnostics/model_20000_vx0_seed42_20261117_005653_368432/state.csv",
+      "bytes": 159803,
+      "sha256": "db8c18486874cd4788927d80fe5c7e57f44352ff124025cca1571f3fc26fd78c"
+    },
+    {
+      "path": "diagnostics/model_20000_vx0_seed42_20261117_005653_368432/summary.json",
+      "bytes": 15631,
+      "sha256": "f5e42aa7d77c0a8c92f25afdfb69cec0537045241358d07ebc8626663495a536"
+    },
+    {
+      "path": "diagnostics/model_20000_vx1.5_seed42_20261117_005713_469814/joints.csv",
+      "bytes": 1640425,
+      "sha256": "796e982472d449ecd24e7f364cab416e413745b56df54c77d5838b2b49bb6e16"
+    },
+    {
+      "path": "diagnostics/model_20000_vx1.5_seed42_20261117_005713_469814/state.csv",
+      "bytes": 144686,
+      "sha256": "c84f1d524ece34583874ec5006a61a409e8d92ea21f0f48f07a500f2d37e5433"
+    },
+    {
+      "path": "diagnostics/model_20000_vx1.5_seed42_20261117_005713_469814/summary.json",
+      "bytes": 15467,
+      "sha256": "03990599d71ac93fec3caf6976aa6ec27f51e6feb387360c8e1c0d98182a7486"
+    },
+    {
+      "path": "diagnostics/model_20000_vx1_seed42_20261117_005703_494205/joints.csv",
+      "bytes": 1640197,
+      "sha256": "cb2849cc4cab19c0754dac5899d7a119666db93eab34cb99942b9610d748f5a5"
+    },
+    {
+      "path": "diagnostics/model_20000_vx1_seed42_20261117_005703_494205/state.csv",
+      "bytes": 144401,
+      "sha256": "6d974450c20a7c119ecd66a085086570f7771ca54dce5c3c52dbe644557ee7f7"
+    },
+    {
+      "path": "diagnostics/model_20000_vx1_seed42_20261117_005703_494205/summary.json",
+      "bytes": 15446,
+      "sha256": "3eac531c253492b59ec2ccd245f935cc5b8fe15fe90f7c7b5a808a0d59217271"
+    },
+    {
+      "path": "diagnostics/model_20000_vx2_seed42_20261117_005723_339889/joints.csv",
+      "bytes": 1644323,
+      "sha256": "3c3a935ee52d5360c06ff9e2d5e0afaab0807d8a283711a2806c7f69ab58568e"
+    },
+    {
+      "path": "diagnostics/model_20000_vx2_seed42_20261117_005723_339889/state.csv",
+      "bytes": 145435,
+      "sha256": "5c7ae487dcbe904fc40e1b5dd79963949ba8e74690cc7f4c38ad40ce9f37e60e"
+    },
+    {
+      "path": "diagnostics/model_20000_vx2_seed42_20261117_005723_339889/summary.json",
+      "bytes": 15453,
+      "sha256": "2ade55c97169c804576221a5b3e92131eb55c551b9698b5d46cb826912cb3b3d"
+    },
+    {
+      "path": "diagnostics/model_29999_vx0_seed42_20261117_005733_178228/joints.csv",
+      "bytes": 1680849,
+      "sha256": "28d878b9f17ac6511b0cb0b15cd97ec308c021ef482db5ccd47fd151851b1606"
+    },
+    {
+      "path": "diagnostics/model_29999_vx0_seed42_20261117_005733_178228/state.csv",
+      "bytes": 157871,
+      "sha256": "75169db4d139fbb699065fbc8a8f7163888a861f5ed8521e0ed554528adc98b7"
+    },
+    {
+      "path": "diagnostics/model_29999_vx0_seed42_20261117_005733_178228/summary.json",
+      "bytes": 15602,
+      "sha256": "fb6b946e564ef3b5f07037fa8eae1b6604805e7274a8e62c643925fa6d05a4da"
+    },
+    {
+      "path": "diagnostics/model_29999_vx1.5_seed42_20261117_005753_506395/joints.csv",
+      "bytes": 1641784,
+      "sha256": "9642381412ae701771def91d1904075b460cc464833d1b72a99251b34099ca74"
+    },
+    {
+      "path": "diagnostics/model_29999_vx1.5_seed42_20261117_005753_506395/state.csv",
+      "bytes": 144473,
+      "sha256": "83e604396e12fe0629c798c450570ebbed991a9331200fdd1f3d87435e6364ee"
+    },
+    {
+      "path": "diagnostics/model_29999_vx1.5_seed42_20261117_005753_506395/summary.json",
+      "bytes": 15412,
+      "sha256": "1971fb46215a57ed44ce46968473de397a6116bc8c676c0f9e1d3dcf8af1f8d7"
+    },
+    {
+      "path": "diagnostics/model_29999_vx1_seed42_20261117_005743_316825/joints.csv",
+      "bytes": 1642433,
+      "sha256": "4690efe92a31a39523c4cf028c6b2d28646eeb89f38a77939ec912ddcafa1eb1"
+    },
+    {
+      "path": "diagnostics/model_29999_vx1_seed42_20261117_005743_316825/state.csv",
+      "bytes": 144067,
+      "sha256": "5906af4506597efdea8bf79ce20f1f1804ae816f180e1fefcbb9aa0a925d144b"
+    },
+    {
+      "path": "diagnostics/model_29999_vx1_seed42_20261117_005743_316825/summary.json",
+      "bytes": 15426,
+      "sha256": "1e52e5f4792d94b1a894e53bb927187a14ec49c9989d1e1e3435c84512cd75b9"
+    },
+    {
+      "path": "diagnostics/model_29999_vx2_seed42_20261117_005803_378725/joints.csv",
+      "bytes": 1646010,
+      "sha256": "56dd5234efa6bb6c32978179e9ff7aa849da1fffc32c09377cf468c2cb3e242d"
+    },
+    {
+      "path": "diagnostics/model_29999_vx2_seed42_20261117_005803_378725/state.csv",
+      "bytes": 146265,
+      "sha256": "039f4ac0a1d508f75e3863be104b6f70ee7c8eb1a6465aeab1bec8248a598b55"
+    },
+    {
+      "path": "diagnostics/model_29999_vx2_seed42_20261117_005803_378725/summary.json",
+      "bytes": 15454,
+      "sha256": "4a9b7caedb5a10974331f1c30ceadf646c8e435985b6923f34801a4b1e24a9a5"
+    }
+  ],
+  "verified_state_rows": 4000,
+  "verified_joint_rows": 80000,
+  "raw_csv_uploaded": false
+}
