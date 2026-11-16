@@ -1,0 +1,114 @@
+[
+  {
+    "status": "duration_completed",
+    "checkpoint": "/home/user/sjy_vWalk_V1_upload_20261116_024158/sjy_vWalk_V1/logs/rsl_rl/sjy_vWalk_V1/2026-11-16_02-42-37_v1_velocity_straight/model_29999.pt",
+    "seed": 42,
+    "command_vx_mps": 1.0,
+    "requested_seconds": 10.0,
+    "samples": 500,
+    "last_valid_sample": {
+      "time_s": 10.0,
+      "command_vx_mps": 1.0,
+      "forward_m": 9.593986511230469,
+      "lateral_m": -0.7410109639167786,
+      "forward_speed_mps": 0.9322090148925781,
+      "lateral_speed_mps": -0.32305964827537537,
+      "heading_deg": -19.82988649729625
+    },
+    "max_abs_lateral_cm": 74.10109639167786,
+    "max_abs_heading_deg": 21.43344650506142,
+    "mean_forward_speed_after_2s": 1.002960915428742,
+    "vx_rmse_after_2s": 0.047280373999385034,
+    "mean_vx_2s_bins": [
+      0.7944,
+      1.0097,
+      1.0104,
+      1.0033,
+      0.9887
+    ]
+  },
+  {
+    "status": "duration_completed",
+    "checkpoint": "/home/user/sjy_vWalk_V1_upload_20261116_024158/sjy_vWalk_V1/logs/rsl_rl/sjy_vWalk_V1/2026-11-16_02-42-37_v1_velocity_straight/model_29999.pt",
+    "seed": 42,
+    "command_vx_mps": 1.5,
+    "requested_seconds": 10.0,
+    "samples": 500,
+    "last_valid_sample": {
+      "time_s": 10.0,
+      "command_vx_mps": 1.5,
+      "forward_m": 7.609480381011963,
+      "lateral_m": -0.9081627726554871,
+      "forward_speed_mps": 0.33011406660079956,
+      "lateral_speed_mps": -0.2601027190685272,
+      "heading_deg": -21.119956581084324
+    },
+    "max_abs_lateral_cm": 90.8162772655487,
+    "max_abs_heading_deg": 21.633242519878436,
+    "mean_forward_speed_after_2s": 0.7627507138281986,
+    "vx_rmse_after_2s": 0.773327174239308,
+    "mean_vx_2s_bins": [
+      0.7606,
+      0.9623,
+      0.9498,
+      0.7167,
+      0.4204
+    ]
+  },
+  {
+    "status": "duration_completed",
+    "checkpoint": "/home/user/sjy_vWalk_V1_upload_20261116_024158/sjy_vWalk_V1/logs/rsl_rl/sjy_vWalk_V1/2026-11-16_02-42-37_v1_velocity_straight/model_29999.pt",
+    "seed": 42,
+    "command_vx_mps": 2.0,
+    "requested_seconds": 10.0,
+    "samples": 500,
+    "last_valid_sample": {
+      "time_s": 10.0,
+      "command_vx_mps": 2.0,
+      "forward_m": 2.562187671661377,
+      "lateral_m": -0.25783771276474,
+      "forward_speed_mps": 0.1819884032011032,
+      "lateral_speed_mps": -0.18862426280975342,
+      "heading_deg": -16.834852423140113
+    },
+    "max_abs_lateral_cm": 25.783771276474,
+    "max_abs_heading_deg": 17.221854162404163,
+    "mean_forward_speed_after_2s": 0.22503521741179755,
+    "vx_rmse_after_2s": 1.775264503203332,
+    "mean_vx_2s_bins": [
+      0.3839,
+      0.2361,
+      0.2234,
+      0.2214,
+      0.2184
+    ]
+  },
+  {
+    "status": "duration_completed",
+    "checkpoint": "/home/user/sjy_vWalk_V1_upload_20261116_024158/sjy_vWalk_V1/logs/rsl_rl/sjy_vWalk_V1/2026-11-16_02-42-37_v1_velocity_straight/model_29999.pt",
+    "seed": 42,
+    "command_vx_mps": 2.5,
+    "requested_seconds": 10.0,
+    "samples": 500,
+    "last_valid_sample": {
+      "time_s": 10.0,
+      "command_vx_mps": 2.5,
+      "forward_m": 3.098975658416748,
+      "lateral_m": -0.1577766090631485,
+      "forward_speed_mps": 0.30329567193984985,
+      "lateral_speed_mps": -0.09497271478176117,
+      "heading_deg": 1.5757233512366116
+    },
+    "max_abs_lateral_cm": 17.714087665081024,
+    "max_abs_heading_deg": 5.52577827008807,
+    "mean_forward_speed_after_2s": 0.3080797469675392,
+    "vx_rmse_after_2s": 2.192193069166583,
+    "mean_vx_2s_bins": [
+      0.3201,
+      0.2719,
+      0.3161,
+      0.3221,
+      0.3221
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "source_zip": "v1_model29999_evaluation.zip",
+  "sha256": "be5878bf7f1c08ec50a101ae6ad95114b682bc0d1da4493620cbb31aed7790c1",
+  "analysis_date": "2026-11-17",
+  "training_code_commit": "not established from ZIP; source snapshot absent",
+  "contents": "4 evaluations (CSV and JSON), training env.yaml and agent.yaml; no TensorBoard events or model weights"
+}
